@@ -1,7 +1,13 @@
-import { Stack } from 'expo-router';
+import {StyleSheet, Text, View} from 'react-native';
+import React from 'react'
 
-const Layout = () => {
-    return <Stack />;
+const RooyLayout = () => {
+    return
+    <View>
+        <Text>Hello</Text>
+    </View>
 }
 
-export default Layout;
+export default RooyLayout;
+
+const styles = StyleSheet.create({})
